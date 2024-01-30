@@ -21,11 +21,10 @@ public class CarService {
     }
 
     public List<Car> getCarCount(Integer count) {
-
         if (count == null) {
             return cars;
         } else {
-            return cars.stream().limit(count).collect(Collectors.toList());
+            return cars.stream().limit(count).toList();
         }
     }
 }

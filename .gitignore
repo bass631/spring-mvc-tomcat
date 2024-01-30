@@ -1,2 +1,11 @@
-# Project exclude paths
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+/.idea/
 /target/
+src/main/resources/cert/
+src/main/resources/application-*.yaml
+*.log
+### vim ###
+*~
+*.swp
